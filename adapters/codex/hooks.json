@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "SessionStart": [{ "hooks": [{ "type": "command", "command": "node \"${PLUGIN_ROOT}/adapters/codex/hook.mjs\"", "timeout": 5, "additionalContextLimit": 16000 }] }],
+    "UserPromptSubmit": [{ "hooks": [{ "type": "command", "command": "node \"${PLUGIN_ROOT}/adapters/codex/hook.mjs\"", "timeout": 5, "additionalContextLimit": 16000 }] }],
+    "PreToolUse": [{ "hooks": [{ "type": "command", "command": "node \"${PLUGIN_ROOT}/adapters/codex/hook.mjs\"", "timeout": 5 }] }]
+  }
+}

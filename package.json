@@ -2,7 +2,7 @@
   "name": "agent-workflow",
   "version": "0.1.0",
   "private": true,
-  "description": "Explicit Pair and Delegate session workflows for Claude Code and Pi",
+  "description": "Explicit Pair and Delegate session workflows for Claude Code, Codex, and Pi",
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -12,7 +12,8 @@
     "check": "node scripts/check.mjs",
     "validate:claude": "claude plugin validate .claude-plugin/plugin.json --strict && claude plugin validate .claude-plugin/marketplace.json --strict",
     "smoke:claude": "node scripts/smoke-claude.mjs",
-    "smoke:pi": "node scripts/smoke-pi.mjs"
+    "smoke:pi": "node scripts/smoke-pi.mjs",
+    "smoke:codex": "node scripts/smoke-codex.mjs"
   },
   "keywords": [
     "pi-package",

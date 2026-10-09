@@ -1,0 +1,8 @@
+{
+  "name": "workflow",
+  "version": "0.1.0",
+  "description": "Explicit Pair and Delegate workflows for Codex sessions.",
+  "author": { "name": "Antonio Di Giovanni" },
+  "skills": "./adapters/codex/skills/",
+  "hooks": "./adapters/codex/hooks.json"
+}
