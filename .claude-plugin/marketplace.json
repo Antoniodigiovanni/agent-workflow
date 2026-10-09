@@ -1,0 +1,13 @@
+{
+  "name": "agent-workflow",
+  "owner": { "name": "Antonio Di Giovanni" },
+  "metadata": { "description": "Explicit Pair and Delegate workflows for Claude Code sessions." },
+  "plugins": [
+    {
+      "name": "workflow",
+      "source": "./",
+      "description": "Explicit Pair and Delegate session workflows for Claude Code.",
+      "version": "0.1.0"
+    }
+  ]
+}
