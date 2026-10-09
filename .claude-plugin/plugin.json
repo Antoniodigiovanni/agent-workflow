@@ -1,6 +1,6 @@
 {
   "name": "workflow",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Choose Pair or Delegate for each Claude Code session, with explicit activation and persistent task context.",
   "author": { "name": "Antonio Di Giovanni" },
   "repository": "https://github.com/Antoniodigiovanni/agent-workflow",
